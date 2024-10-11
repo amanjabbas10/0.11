@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ruda:wght@400..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins",sans-serif;
+}
+
+.nav1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav1 img{
+    max-width: 200px;
+}
+
+.nav1 a{
+    color: #24252a;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav1 a:hover{
+    color: #606060;
+}
+
+.icon-social a{
+    color: #24252a;
+    margin: 13px;
+    transition:all 0.3s ease 0s;
+}
+
+.icon-social a:hover{
+    color: #606060;
+}
+
+
+.hero{
+    margin-top: 10px;
+    padding: 0 60px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero .left-section .top h2{
+    font-size: 39px;
+    margin-bottom: 10px;
+}
+
+img{
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.hero .left-section .top p{
+    color: #606060;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    border: none;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    margin: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn1:hover{
+    background: black;
+    color: white;
+}
+
+
+.btn2{
+    border: none;
+    border:  1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background: black;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+
+.btn2:hover{
+    background: white;
+    color: black;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.itmes{
+    padding: 0 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itmes .itme .inner h2{
+font-size: 35px;
+text-align: center;
+margin-bottom: 10px;
+}
+
+
+.itmes .itme .inner p{
+    text-align: start;
+    padding: 10px;
+}
+
+.btn3{
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 5px;
+    margin: 10px;
+    background: white;
+    transition: all 0.3s ease 0s;
+}
+
+.btn3:hover{
+    background: black;
+    color: white;
+}
+
+footer{
+    color:#606060;
+    background:#24252a;
+    padding: 30px;
+    border-radius: 24px 24px 0 0;
+}
+
+
+footer a{
+    color: #606060;
+    text-decoration: none;
+    padding: 25px;
+    transition: all 0.3s ease 0s;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1132px) {
+    
+
+
+
+.hero .left-section .top h2{
+    font-size: 35px;
+}
+
+img{
+    max-width: 450px;
+    
+}
+.hero .left-section .top h2{
+    font-size: 30px;
+}
+
+.hero .left-section .top p{
+    font-size: 13px;
+}
+
+.btn1{
+    padding: 8px;
+}
+
+.btn2{
+    padding: 8px;
+}
+
+img{
+    max-width: 400px;
+}
+}
+
+@media screen and (max-width:998px) {
+    
+.hero .left-section .top h2{
+    font-size: 25px;
+}
+
+.hero .left-section .top p{
+    font-size: 9px;
+}
+
+.btn1{
+    padding: 3px;
+    width: 30%;
+}
+
+.btn2{
+    padding: 3px;
+    width: 30%;
+}
+
+}
